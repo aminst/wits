@@ -1,0 +1,267 @@
+country_iso3:country_name
+ABW:Aruba
+AFG:Afghanistan
+AGO:Angola
+AIA:Anguila
+ALB:Albania
+AND:Andorra
+ANT:Netherlands Antilles
+ARE:United Arab Emirates
+ASM:American Samoa
+ARM:Armenia
+ARG:Argentina
+ATF:Fr. So. Ant. Tr
+ATG:Antigua and Barbuda
+AUS:Australia
+AUT:Austria
+AZE:Azerbaijan
+BDI:Burundi
+BEN:Benin
+BFA:Burkina Faso
+BGD:Bangladesh
+BGR:Bulgaria
+BHR:Bahrain
+BHS:Bahamas, The
+BIH:Bosnia and Herzegovina
+BLX:Belgium-Luxembourg
+BLZ:Belize
+BMU:Bermuda
+BOL:Bolivia
+BRA:Brazil
+BRB:Barbados
+BLR:Belarus
+BAT:Br. Antr. Terr
+BEL:Belgium
+BWA:Botswana
+BRN:Brunei
+BTN:Bhutan
+BUN:Bunkers
+CAF:Central African Republic
+CAN:Canada
+CCK:Cocos (Keeling) Islands
+CHE:Switzerland
+CHL:Chile
+CHN:China
+CIV:Cote d'Ivoire
+CMR:Cameroon
+COG:Congo, Rep.
+COK:Cook Islands
+COL:Colombia
+COM:Comoros
+CPV:Cape Verde
+CRI:Costa Rica
+CSK:Czechoslovakia
+CUB:Cuba
+CXR:Christmas Island
+CZE:Czech Republic
+CYM:Cayman Islands
+CYP:Cyprus
+DDR:German Democratic Republic
+DEU:Germany
+DJI:Djibouti
+DMA:Dominica
+DNK:Denmark
+DOM:Dominican Republic
+DZA:Algeria
+ECU:Ecuador
+EGY:Egypt, Arab Rep.
+EST:Estonia
+ESP:Spain
+ERI:Eritrea
+ETH:Ethiopia (excludes Eritrea)
+ETF:Ethiopia (includes Eritrea)
+ESH:Western Sahara
+EUN:European Union
+FIN:Finland
+FJI:Fiji
+FLK:Falkland Island
+FRA:France
+FRO:Faeroe Islands
+FRE:Free Zones
+FSM:Micronesia, Fed. Sts.
+GAB:Gabon
+GBR:United Kingdom
+GHA:Ghana
+GIB:Gibraltar
+GIN:Guinea
+GLP:Guadeloupe
+GMB:Gambia, The
+GNB:Guinea-Bissau
+GNQ:Equatorial Guinea
+GAZ:Gaza Strip
+GRC:Greece
+GEO:Georgia
+GRD:Grenada
+GRL:Greenland
+GTM:Guatemala
+GUF:French Guiana
+GUM:Guam
+GUY:Guyana
+HKG:Hong Kong, China
+HND:Honduras
+HTI:Haiti
+HUN:Hungary
+HRV:Croatia
+IDN:Indonesia
+IND:India
+IOT:British Indian Ocean Ter.
+IRL:Ireland
+IRN:Iran, Islamic Rep.
+IRQ:Iraq
+ISL:Iceland
+ISR:Israel
+ITA:Italy
+JAM:Jamaica
+JOR:Jordan
+JPN:Japan
+JTN:Jhonston Island
+KEN:Kenya
+KHM:Cambodia
+KAZ:Kazakhstan
+KIR:Kiribati
+KNA:St. Kitts and Nevis
+KN1:Saint Kitts-Nevis-Anguilla-Aru
+KOR:Korea, Rep.
+KWT:Kuwait
+KGZ:Kyrgyz Republic
+LAO:Lao PDR
+LBN:Lebanon
+LBR:Liberia
+LVA:Latvia
+LSO:Lesotho
+LBY:Libya
+LTU:Lithuania
+LIE:Liechtenstein
+LUX:Luxembourg
+LCA:St. Lucia
+LKA:Sri Lanka
+MAC:Macao
+MAR:Morocco
+MKD:Macedonia, FYR
+MDG:Madagascar
+MDA:Moldova
+MDV:Maldives
+MCO:Monaco
+MEX:Mexico
+MLI:Mali
+MLT:Malta
+MID:Midway Islands
+MMR:Myanmar
+MHL:Marshall Islands
+MNG:Mongolia
+MOZ:Mozambique
+MRT:Mauritania
+MSR:Montserrat
+MTQ:Martinique
+MUS:Mauritius
+MWI:Malawi
+MYS:Malaysia
+MNP:Northern Mariana Islands
+NCL:New Caledonia
+NER:Niger
+NFK:Norfolk Island
+NGA:Nigeria
+NIC:Nicaragua
+NIU:Niue
+NLD:Netherlands
+NAM:Namibia
+NOR:Norway
+NPL:Nepal
+NRU:Nauru
+NZE:Neutral Zone
+NZL:New Zealand
+OAS:Other Asia
+OMN:Oman
+PAK:Pakistan
+PAN:Panama
+PCE:Pacific Islands
+PLW:Palau
+PCZ:Fm Panama Cz
+PCN:Pitcairn
+PER:Peru
+PHL:Philippines
+PNG:Papua New Guinea
+POL:Poland
+PRK:Korea, Dem. Rep.
+PRT:Portugal
+PRY:Paraguay
+PRI:Puerto Rico
+PYF:French Polynesia
+PMY:Pen Malaysia
+QAT:Qatar
+REU:Reunion
+ROM:Romania
+RUS:Russian Federation
+RWA:Rwanda
+RYU:Ryukyu Is
+SAU:Saudi Arabia
+SDN:Sudan
+SEN:Senegal
+SBH:Sabah
+SGP:Singapore
+SHN:Saint Helena
+SLB:Solomon Islands
+SLE:Sierra Leone
+SLV:El Salvador
+SLK:SIKKIM
+SER:Yugoslavia
+SOM:Somalia
+SPE:Special Categories
+SVK:Slovak Republic
+SVN:Slovenia
+SPM:Saint Pierre and Miquelon
+STP:Sao Tome and Principe
+SUR:Suriname
+SVU:Soviet Union
+SJM:Svalbard and Jan Mayen Is
+SWE:Sweden
+SWZ:Swaziland
+SWK:Sarawak
+SVR:Fm Vietnam Rp
+SYC:Seychelles
+SYR:Syrian Arab Republic
+SMR:San Marino
+TCA:Turks and Caicos Isl.
+TWN:Taiwan
+TCD:Chad
+TJK:Tajikistan
+TGO:Togo
+THA:Thailand
+TKL:Tokelau
+TKM:Turkmenistan
+TMP:East Timor
+TON:Tonga
+TTO:Trinidad and Tobago
+TUN:Tunisia
+TUR:Turkey
+TAN:Fm Tanganyik
+TUV:Tuvalu
+TZA:Tanzania
+UGA:Uganda
+UKR:Ukraine
+UNS:Unspecified
+URY:Uruguay
+USA:United States
+USP:Us Msc.Pac.I
+UZB:Uzbekistan
+VCT:St. Vincent and the Grenadines
+VEN:Venezuela
+VGB:British Virgin Islands
+VIR:Virgin Islands (U.S.)
+VNM:Vietnam
+VUT:Vanuatu
+VAT:Holy See
+VDR:Fm Vietnam Dr
+WLD:World
+WLF:Wallis and Futura Isl.
+WAK:Wake Island
+WSM:Samoa
+YDR:Yemen Democratic
+YEM:Yemen, Rep.
+YUG:Yugoslavia, FR(Serbia/Montenegro)
+ZAF:South Africa
+ZAR:Congo, Dem. Rep.
+ZMB:Zambia
+ZWE:Zimbabwe
+ZPM:Fm Zanz-Pemb
+ZW1:Fm Rhod Nyas
