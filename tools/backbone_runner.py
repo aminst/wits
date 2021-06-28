@@ -60,6 +60,7 @@ def get_nodes_list(G: nx.DiGraph):
     data["country_iso3"]=[x for x in G]
     data["gdp_us_dollar"] = [G.nodes[x]["gdp_us_dollar"] for x in G.nodes()]
     data["inflation_rate"] = [G.nodes[x]["inflation_rate"] for x in G.nodes()]
+    data["gdp_growth"] = [G.nodes[x]["gdp_growth"] for x in G.nodes()]
     return pd.DataFrame(data)
 
 def main():
