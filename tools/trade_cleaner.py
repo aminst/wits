@@ -33,6 +33,9 @@ def get_country_index_dicts(dataframe):
     return country_to_index, index_to_country, all_countries
 
 def main():
+    """
+    sample usage: python trade_cleaner.py <uncleaned_file_path> <cleaned_file_output_path>
+    """
     if len(sys.argv) != 3:
         print("Please provide data path and output file name!")
         exit()
