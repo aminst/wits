@@ -50,7 +50,6 @@ def main():
     agg_df = create_aggregate_df(trades, index_to_country)
     agg_df.to_csv(output_name, index=False)
 
-
 if __name__ == '__main__':
     main()
     

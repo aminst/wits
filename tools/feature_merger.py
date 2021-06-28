@@ -15,6 +15,5 @@ def main():
     merged = pd.merge(input1_df, input2_df, how="outer", on=["country_iso3"])
     merged.to_csv(merged_path, index=False)
 
-
 if __name__ == '__main__':
     main()
