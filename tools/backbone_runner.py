@@ -55,13 +55,11 @@ def create_backbone_graph(net: nx.DiGraph, min_alpha_ptile = 0.5, min_degree = 1
     cut_graph(graph, min_alpha_ptile, min_degree)
     return graph
 
-def get_nodes_list(G: nx.DiGraph):
+def get_nodes_list(G: nx.DiGraph, columns):
     data={}
     data["country_iso3"]=[x for x in G]
-    data["gdp_us_dollar"] = [G.nodes[x]["gdp_us_dollar"] for x in G.nodes()]
-    data["inflation_rate"] = [G.nodes[x]["inflation_rate"] for x in G.nodes()]
-    data["gdp_growth"] = [G.nodes[x]["gdp_growth"] for x in G.nodes()]
-    data["colonizer"] = [G.nodes[x]["colonizer"] for x in G.nodes()]
+    for column in columns:
+        data[column] = [G.nodes[x][column] for x in G.nodes()]
     return pd.DataFrame(data)
 
 def main():
@@ -92,10 +90,9 @@ def main():
     save_graph(net, False, reports_path)
 
     cut_edge_list = nx.convert_matrix.to_pandas_edgelist(cut_net).drop(columns = ["alpha_ptile", "alpha", "norm_weight"])
-    cut_node_list = get_nodes_list(cut_net)
+    cut_node_list = get_nodes_list(cut_net, set(nodelist_df.columns) - {"country_iso3"})
     cut_edge_list.to_csv(out_edgelist_path, index = False)
     cut_node_list.to_csv(out_nodelist_path, index = False)
-
 
 if __name__ == '__main__':
     main()
