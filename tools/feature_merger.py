@@ -12,7 +12,7 @@ def main():
     input1_df = pd.read_csv(input1_path)
     input2_df = pd.read_csv(input2_path)
 
-    merged = pd.merge(input1_df, input2_df, how="outer", on=["country_iso3"])
+    merged = pd.merge(input1_df, input2_df, how="left", on=["country_iso3"])
     merged.to_csv(merged_path, index=False)
 
 if __name__ == '__main__':
