@@ -22,6 +22,7 @@ BGD:Bangladesh
 BGR:Bulgaria
 BHR:Bahrain
 BHS:Bahamas, The
+BHS:Bahamas
 BIH:Bosnia and Herzegovina
 BLX:Belgium-Luxembourg
 BLZ:Belize
@@ -34,6 +35,7 @@ BAT:Br. Antr. Terr
 BEL:Belgium
 BWA:Botswana
 BRN:Brunei
+BRN:Brunei Darussalam
 BTN:Bhutan
 BUN:Bunkers
 CAF:Central African Republic
@@ -43,8 +45,11 @@ CHE:Switzerland
 CHL:Chile
 CHN:China
 CIV:Cote d'Ivoire
+CIV:Côte d’Ivoire
 CMR:Cameroon
 COG:Congo, Rep.
+COG:Congo-Kinshasa of the
+COG:"Congo, Republic of the"
 COK:Cook Islands
 COL:Colombia
 COM:Comoros
@@ -65,10 +70,12 @@ DOM:Dominican Republic
 DZA:Algeria
 ECU:Ecuador
 EGY:Egypt, Arab Rep.
+EGY:Egypt
 EST:Estonia
 ESP:Spain
 ERI:Eritrea
 ETH:Ethiopia (excludes Eritrea)
+ETH:Ethiopia
 ETF:Ethiopia (includes Eritrea)
 ESH:Western Sahara
 EUN:European Union
@@ -79,6 +86,7 @@ FRA:France
 FRO:Faeroe Islands
 FRE:Free Zones
 FSM:Micronesia, Fed. Sts.
+FSM:"Micronesia, Federated States of"
 GAB:Gabon
 GBR:United Kingdom
 GHA:Ghana
@@ -107,6 +115,7 @@ IND:India
 IOT:British Indian Ocean Ter.
 IRL:Ireland
 IRN:Iran, Islamic Rep.
+IRN:Iran
 IRQ:Iraq
 ISL:Iceland
 ISR:Israel
@@ -120,11 +129,15 @@ KHM:Cambodia
 KAZ:Kazakhstan
 KIR:Kiribati
 KNA:St. Kitts and Nevis
+KNA:Saint Kitts and Nevis
 KN1:Saint Kitts-Nevis-Anguilla-Aru
 KOR:Korea, Rep.
+KOR:"Korea, Republic of"
 KWT:Kuwait
 KGZ:Kyrgyz Republic
+KGZ:Kyrgyzstan
 LAO:Lao PDR
+LAO:Lao People’s Democratic Republic
 LBN:Lebanon
 LBR:Liberia
 LVA:Latvia
@@ -134,12 +147,15 @@ LTU:Lithuania
 LIE:Liechtenstein
 LUX:Luxembourg
 LCA:St. Lucia
+LCA:Saint Lucia
 LKA:Sri Lanka
 MAC:Macao
 MAR:Morocco
 MKD:Macedonia, FYR
+MKD:Macedonia
 MDG:Madagascar
 MDA:Moldova
+MDA:"Moldova, Republic of"
 MDV:Maldives
 MCO:Monaco
 MEX:Mexico
@@ -183,6 +199,8 @@ PHL:Philippines
 PNG:Papua New Guinea
 POL:Poland
 PRK:Korea, Dem. Rep.
+PRK:"Korea, Democratic People’s Republic of"
+PRK:Korea, Democratic People’s Republic of
 PRT:Portugal
 PRY:Paraguay
 PRI:Puerto Rico
@@ -208,6 +226,7 @@ SER:Yugoslavia
 SOM:Somalia
 SPE:Special Categories
 SVK:Slovak Republic
+SVK:Slovakia
 SVN:Slovenia
 SPM:Saint Pierre and Miquelon
 STP:Sao Tome and Principe
@@ -220,6 +239,7 @@ SWK:Sarawak
 SVR:Fm Vietnam Rp
 SYC:Seychelles
 SYR:Syrian Arab Republic
+SYR:Syria
 SMR:San Marino
 TCA:Turks and Caicos Isl.
 TWN:Taiwan
@@ -237,6 +257,7 @@ TUR:Turkey
 TAN:Fm Tanganyik
 TUV:Tuvalu
 TZA:Tanzania
+TZA:"Tanzania, United Republic of"
 UGA:Uganda
 UKR:Ukraine
 UNS:Unspecified
@@ -245,10 +266,13 @@ USA:United States
 USP:Us Msc.Pac.I
 UZB:Uzbekistan
 VCT:St. Vincent and the Grenadines
+VCT:Saint Vincent and the Grenadines
+VCT:St Vincent and the Grenadines
 VEN:Venezuela
 VGB:British Virgin Islands
 VIR:Virgin Islands (U.S.)
 VNM:Vietnam
+VNM:Viet Nam
 VUT:Vanuatu
 VAT:Holy See
 VDR:Fm Vietnam Dr
@@ -256,8 +280,10 @@ WLD:World
 WLF:Wallis and Futura Isl.
 WAK:Wake Island
 WSM:Samoa
+WSM:Samoa (Formerly Western Samoa)
 YDR:Yemen Democratic
 YEM:Yemen, Rep.
+YEM:Yemen
 YUG:Yugoslavia, FR(Serbia/Montenegro)
 ZAF:South Africa
 ZAR:Congo, Dem. Rep.
