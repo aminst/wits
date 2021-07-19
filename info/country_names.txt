@@ -48,6 +48,7 @@ CIV:Cote d'Ivoire
 CIV:Côte d’Ivoire
 CMR:Cameroon
 COG:Congo, Rep.
+COG:Congo-Kinshasa
 COG:Congo-Kinshasa of the
 COG:"Congo, Republic of the"
 COK:Cook Islands
@@ -61,6 +62,7 @@ CXR:Christmas Island
 CZE:Czech Republic
 CYM:Cayman Islands
 CYP:Cyprus
+CYP:Northern Cyprus
 DDR:German Democratic Republic
 DEU:Germany
 DJI:Djibouti
@@ -137,6 +139,7 @@ KWT:Kuwait
 KGZ:Kyrgyz Republic
 KGZ:Kyrgyzstan
 LAO:Lao PDR
+LAO:"Lao People's Democratic Republic"
 LAO:Lao People’s Democratic Republic
 LBN:Lebanon
 LBR:Liberia
@@ -199,6 +202,7 @@ PHL:Philippines
 PNG:Papua New Guinea
 POL:Poland
 PRK:Korea, Dem. Rep.
+PRK:"Korea, Democratic People's Republic of"
 PRK:"Korea, Democratic People’s Republic of"
 PRK:Korea, Democratic People’s Republic of
 PRT:Portugal
@@ -250,6 +254,7 @@ THA:Thailand
 TKL:Tokelau
 TKM:Turkmenistan
 TMP:East Timor
+TMP:Timor Leste
 TON:Tonga
 TTO:Trinidad and Tobago
 TUN:Tunisia
@@ -275,6 +280,7 @@ VNM:Vietnam
 VNM:Viet Nam
 VUT:Vanuatu
 VAT:Holy See
+VAT:Holy See (Vatican)
 VDR:Fm Vietnam Dr
 WLD:World
 WLF:Wallis and Futura Isl.
@@ -285,6 +291,8 @@ YDR:Yemen Democratic
 YEM:Yemen, Rep.
 YEM:Yemen
 YUG:Yugoslavia, FR(Serbia/Montenegro)
+YUG:Montenegro
+YUG:Serbia
 ZAF:South Africa
 ZAR:Congo, Dem. Rep.
 ZMB:Zambia
