@@ -160,6 +160,7 @@ MAC:Macao
 MAR:Morocco
 MKD:Macedonia, FYR
 MKD:Macedonia
+MKD:North Macedonia
 MDG:Madagascar
 MDA:Moldova
 MDA:"Moldova, Republic of"
@@ -282,6 +283,7 @@ VCT:St. Vincent and the Grenadines
 VCT:Saint Vincent and the Grenadines
 VCT:St Vincent and the Grenadines
 VEN:Venezuela
+VEN:"Venezuela, RB"
 VGB:British Virgin Islands
 VIR:Virgin Islands (U.S.)
 VNM:Vietnam
