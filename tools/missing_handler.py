@@ -32,6 +32,8 @@ def main():
 
     drop_corresponding_edges(edgelist_df, missing_countries)
 
+    nodelist_df.drop_duplicates(inplace = True, subset = ["country_iso3"])
+    edgelist_df.drop_duplicates(inplace = True)
     nodelist_df.to_csv(out_nodelist_path, index=False)
     edgelist_df.to_csv(out_edgelist_path, index=False)
 
