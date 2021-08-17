@@ -62,17 +62,24 @@ def get_nodes_list(G: nx.DiGraph, columns):
         data[column] = [G.nodes[x][column] for x in G.nodes()]
     return pd.DataFrame(data)
 
+def get_threshold_cut_el(edgelist_df, min_alpha_ptile = 0.8):
+    threshold = np.percentile(sorted(edgelist_df["weight"]), min_alpha_ptile*100)
+    cut_el = edgelist_df[edgelist_df["weight"] > threshold].reset_index()
+    cut_el = cut_el.drop("index", axis=1)
+    return cut_el
+
 def main():
     """
-    sample usage: python backbone_runner.py <nodelist_path> <edgelist_path> <min_alpha_ptile> <min_degree> <out_nodelist_path> <out_edgelist_path> <reports_path>
+    sample usage: python backbone_runner.py <nodelist_path> <edgelist_path> <min_alpha_ptile> <min_degree> <out_nodelist_path> <out_edgelist_path_disparity> <out_edgelist_path_threshold> <reports_path>
     """
     nodelist_path = sys.argv[1]
     edgelist_path = sys.argv[2]
     min_alpha_ptile = sys.argv[3]
     min_degree = sys.argv[4]
     out_nodelist_path = sys.argv[5]
-    out_edgelist_path = sys.argv[6]
-    reports_path = sys.argv[7]
+    out_edgelist_path_disparity = sys.argv[6]
+    out_edgelist_path_threshold = sys.argv[7]
+    reports_path = sys.argv[8]
 
     nodelist_df = pd.read_csv(nodelist_path)
     edgelist_df = pd.read_csv(edgelist_path)
@@ -91,8 +98,10 @@ def main():
 
     cut_edge_list = nx.convert_matrix.to_pandas_edgelist(cut_net).drop(columns = ["alpha_ptile", "alpha", "norm_weight"])
     cut_node_list = get_nodes_list(cut_net, set(nodelist_df.columns) - {"country_iso3"})
-    cut_edge_list.to_csv(out_edgelist_path, index = False)
+    cut_edge_list.to_csv(out_edgelist_path_disparity, index = False)
     cut_node_list.to_csv(out_nodelist_path, index = False)
+
+    get_threshold_cut_el(edgelist_df, min_alpha_ptile=float(min_alpha_ptile)).to_csv(out_edgelist_path_threshold, index=False)
 
 if __name__ == '__main__':
     main()
