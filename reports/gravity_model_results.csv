@@ -1,0 +1,17 @@
+"effect","significance"
+"intercept",2.86470794839904e-110
+"nodecov-industry_of_gdp",6.03474301860457e-05
+"nodecov-merchandise_of_gdp",0.0290605367583514
+"nodecov-agriculture_forestry_fishing_of_gdp",0.00440169026520764
+"nodecov-inflation_rate",0.0955890352473778
+"nodecov-net_barter_of_trade",8.98856918516471e-09
+"nodecov-foreign_direct_investment_inflows",1.80552202713887e-25
+"absdiff-gdp_growth",0.00608798132824771
+"absdiff-industry_of_gdp",3.9097340421488e-10
+"absdiff-gdp_us_dollar",3.96252831204343e-30
+"absdiff-agriculture_forestry_fishing_of_gdp",0.000140786648857081
+"absdiff-net_barter_of_trade",3.55490974469752e-06
+"absdiff-foreign_direct_investment_inflows",7.97349558113464e-21
+"nodematch-langoff_1",0.000361985008542132
+"nodematch-landlocked",1.14609606937239e-10
+"nodematch-continent",5.69592953676671e-22
