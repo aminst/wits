@@ -1,4 +1,4 @@
-for YEAR in 2011
+for YEAR in 2011 2013 2015 2017
 do
     python tools/trade_cleaner.py data/$YEAR/initial_trades.csv tmp/$YEAR/trades.csv
     python tools/feature_merger.py data/common/countries.csv data/$YEAR/features/gdp.csv tmp/$YEAR/features.csv
