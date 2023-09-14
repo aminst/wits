@@ -1,5 +1,7 @@
+mkdir tmp
 for YEAR in 2011 2013 2015 2017
 do
+    mkdir tmp/$YEAR
     python3 tools/trade_cleaner.py data/$YEAR/initial_trades.csv tmp/$YEAR/trades.csv
     python3 tools/feature_merger.py data/common/countries.csv data/$YEAR/features/gdp.csv tmp/$YEAR/features.csv
     python3 tools/feature_merger.py tmp/$YEAR/features.csv data/$YEAR/features/inflation.csv tmp/$YEAR/features.csv
