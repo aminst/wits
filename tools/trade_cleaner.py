@@ -7,11 +7,12 @@ def create_aggregate_df(trades, index_to_country):
     for i in range(trades.shape[0]):
         for j in range(trades.shape[0]):
             if trades[i, j] != 0:
-                df = df.append({
+                df2 = pd.DataFrame([{
                     'source': index_to_country[i], 
                     'target': index_to_country[j], 
                     'weight': trades[i, j]
-                }, ignore_index=True)
+                }])
+                df = pd.concat([df, df2], ignore_index=True)
     return df
 
 def aggregate_trades(dataframe, country_to_index, all_countries):
