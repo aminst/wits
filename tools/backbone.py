@@ -125,7 +125,7 @@ def calc_quantiles (metrics, num):
 
     quantiles = []
 
-    for idx, q_hi in q.iteritems():
+    for idx, q_hi in q.items():
         quantiles.append(q_hi)
 
         if DEBUG:
